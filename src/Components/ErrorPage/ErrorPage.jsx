@@ -12,7 +12,10 @@ const ErrorPage = () => {
             <p>OOps!!</p>
             {
                 error.status === 404 && <div>   <h1> 404 Error!  </h1>
+
+                
                  <button onClick={goback}> Go back</button>
+
                    </div> 
                 
             }
